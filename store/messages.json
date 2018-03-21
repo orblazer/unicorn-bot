@@ -1,0 +1,69 @@
+{
+  "ERROR": "INVALID MESSAGE PATH",
+  "commands": {
+    "notFound": "Oh on dirait que je ne connais pas cette commande, faite `!help` pour voir les commandes",
+    "usageTitle": "Utilisation de la commande \"$0\" :",
+    "unauthorized": "Vous n'êtes pas autoriser à exécuter la commande \"$0\"",
+    "help": {
+      "description": "Liste toutes les commandes",
+      "title": "Liste des commandes :"
+    },
+    "song": {
+      "description": "Gérer la musique sur le serveur",
+      "usages": {
+        "join": "Connecter le bot au salon vocal",
+        "leave": "Déconnecter le bot du salon vocal",
+        "play": "Reprendre la musique ou ajouter une musique",
+        "pause": "Mettre en pause la musique",
+        "skip": "Passer la musique en cours",
+        "volume": "Connaitre ou définir le volume de la musique",
+        "info": "Voir les info sur le player"
+      },
+      "notVoiceChannel": "Vous n'êtes pas dans un salon vocal.",
+      "ready": "Je suis prêt pour jouer de la musique, faite `!song play`.",
+      "already": "Je suis déjà prêt pour jouer de la musique, faite `!song play`.",
+      "failedJoin": "Oups, je n'arrive pas à rejoindre le salon.",
+      "leave": "J'ai bien quitter le salon.",
+      "notJoined": "Je ne suis pas sur un salon vocal, faite `!song join` avant.",
+      "resume": "Ok, je reprend la musique !",
+      "resumed": "OH ! Je joue déjà la musique",
+      "play": {
+        "place": "Déjà dans la liste !",
+        "queued": "Ajout à la playlist :",
+        "playing": "Musique en cours :",
+        "inQueue": "En file d'attente ($0 sur $1)",
+        "time": "Durée :",
+        "state": "Status :",
+        "proposer": "Proposer par :",
+        "startTime": "début : $0",
+        "invalidUrl": "L'url n'est pas valid"
+      },
+      "pause": "Ok, je mets en pause la musique !",
+      "paused": "OH ! Je suis déjà en pause.",
+      "noSong": "Comment puis-je faire ça sans musique ?!",
+      "volume": {
+        "current": "Mon volume actuel est `$0`",
+        "change": "Dacodac, je change le volume pour `$0`",
+        "range": "Tu connais tes math ?! `$0` n'est pas compris entre `$1` et `$2`"
+      },
+      "info": {
+        "title": "Information sur la playlist :",
+        "nbSong": "La playlist contient `$0` musiques",
+        "volume": "Le volume actuel est `$0`",
+        "time": "**Durée :** $0",
+        "proposer": "**Proposer par :** $0",
+        "url": "**URL :** <$0>"
+      },
+      "states": {
+        "waiting": "En attente",
+        "running": "En cours",
+        "paused": "En pause"
+      }
+    },
+    "vkick": {
+      "description": "Kick un utilisateur d'un salon vocal",
+      "notVoiceChannel": "<@$0> n'est pas dans un salon vocal.",
+      "kicked": "<@$0> à bien été kick du salon vocal."
+    }
+  }
+}

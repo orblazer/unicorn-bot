@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "discord-bot",
+    "script": "./dist/index.js",
+    "args": "--token MzE5NTE5MzU5ODg0MzI4OTgx.DVZ62A.upRjSQpMRGyY_1VbORxEZnV6DWk",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "env_production" : {
+      "NODE_ENV": "production"
+    }
+  }]
+}

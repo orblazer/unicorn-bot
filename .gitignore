@@ -1,0 +1,8 @@
+# jetBrains IDE ignores
+.idea/
+*.iml
+
+# Project ignores
+node_modules/
+dist/
+ecosystem.json

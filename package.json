@@ -1,0 +1,30 @@
+{
+  "name": "unicorn-bot",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "pstart": "pm2 start ecosystem.json",
+    "pprod": "pm2 start ecosystem.json --env production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "orblazer <orblazer@relonar.fr>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^9.4.7",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "colors": "^1.2.1",
+    "discord.js": "^11.3.2",
+    "minimist": "^1.2.0",
+    "node-opus": "^0.2.7",
+    "uws": "^9.14.0",
+    "ytdl-core": "^0.20.2"
+  }
+}
